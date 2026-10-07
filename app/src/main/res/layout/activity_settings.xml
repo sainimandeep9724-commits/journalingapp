@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFAF7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/imgSettings"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/settings"
+                android:scaleType="fitCenter"
+                android:contentDescription="settings image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Manage your journaling experience and preferences."
+                android:textSize="16sp"
+                android:textColor="#758094" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Alex Morgan"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="Mindful Moments member"
+                android:textSize="14sp"
+                android:textColor="#758094" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="7 day streak"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="Keep showing up to your reflections."
+                android:textSize="14sp"
+                android:textColor="#758094" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Preferences"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Notifications"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Appearance"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Privacy"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Reminder Time"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:text="Help"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#22283A" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/navHomeSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Home"
+            android:textSize="13sp"
+            android:textColor="#9AA5B5" />
+
+        <TextView
+            android:id="@+id/navJournalSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Journal"
+            android:textSize="13sp"
+            android:textColor="#9AA5B5" />
+
+        <TextView
+            android:id="@+id/navSettingsSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Settings"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#735E9C" />
+    </LinearLayout>
+
+</LinearLayout>
